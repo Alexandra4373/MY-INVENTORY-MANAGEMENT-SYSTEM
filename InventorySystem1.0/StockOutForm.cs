@@ -213,7 +213,7 @@ namespace InventorySystem1._0
 
         private void btnviewStockout_Click(object sender, EventArgs e)
         {
-            frmListStockout frm=new frmListStockout();
+            StockoutListForm frm=new StockoutListForm();
             frm.Show(); 
         }
     }

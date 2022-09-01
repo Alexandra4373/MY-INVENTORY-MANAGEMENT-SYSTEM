@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmReport
+    partial class ReportForm
     {
         /// <summary>
         /// Required designer variable.

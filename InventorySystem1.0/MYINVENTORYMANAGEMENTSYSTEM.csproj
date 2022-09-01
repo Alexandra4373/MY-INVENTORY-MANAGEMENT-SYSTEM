@@ -64,11 +64,11 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmItems.cs">
+    <Compile Include="ProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmItems.Designer.cs">
-      <DependentUpon>frmItems.cs</DependentUpon>
+    <Compile Include="ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
     <Compile Include="frmListReturned.cs">
       <SubType>Form</SubType>
@@ -94,29 +94,29 @@
     <Compile Include="frmReport.Designer.cs">
       <DependentUpon>frmReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmReturn.cs">
+    <Compile Include="ReturnForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReturn.Designer.cs">
-      <DependentUpon>frmReturn.cs</DependentUpon>
+    <Compile Include="ReturnForm.Designer.cs">
+      <DependentUpon>ReturnForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSettings.cs">
+    <Compile Include="SettingForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmSettings.Designer.cs">
-      <DependentUpon>frmSettings.cs</DependentUpon>
+    <Compile Include="SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStockOut.cs">
+    <Compile Include="StockOutForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStockOut.Designer.cs">
-      <DependentUpon>frmStockOut.cs</DependentUpon>
+    <Compile Include="StockOutForm.Designer.cs">
+      <DependentUpon>StockOutForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUsers.cs">
+    <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUsers.Designer.cs">
-      <DependentUpon>frmUsers.cs</DependentUpon>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Includes\SQLConfig.cs" />
     <Compile Include="Includes\usableFunction.cs" />
@@ -125,8 +125,8 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmItems.resx">
-      <DependentUpon>frmItems.cs</DependentUpon>
+    <EmbeddedResource Include="ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListReturned.resx">
       <DependentUpon>frmListReturned.cs</DependentUpon>
@@ -140,17 +140,17 @@
     <EmbeddedResource Include="frmReport.resx">
       <DependentUpon>frmReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmReturn.resx">
-      <DependentUpon>frmReturn.cs</DependentUpon>
+    <EmbeddedResource Include="ReturnForm.resx">
+      <DependentUpon>ReturnForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSettings.resx">
-      <DependentUpon>frmSettings.cs</DependentUpon>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStockOut.resx">
-      <DependentUpon>frmStockOut.cs</DependentUpon>
+    <EmbeddedResource Include="StockOutForm.resx">
+      <DependentUpon>StockOutForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUsers.resx">
-      <DependentUpon>frmUsers.cs</DependentUpon>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

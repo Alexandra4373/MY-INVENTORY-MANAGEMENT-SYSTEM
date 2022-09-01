@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmListReturned
+    partial class ReturnListForm
     {
         /// <summary>
         /// Required designer variable.

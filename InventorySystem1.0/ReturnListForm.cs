@@ -11,9 +11,9 @@ using InventorySystem1._0.Includes;
 
 namespace InventorySystem1._0
 {
-    public partial class frmListReturned : Form
+    public partial class ReturnListForm : Form
     {
-        public frmListReturned()
+        public ReturnListForm()
         {
             InitializeComponent();
         }

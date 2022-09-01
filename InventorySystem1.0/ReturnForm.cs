@@ -183,7 +183,7 @@ namespace InventorySystem1._0
 
         private void btnvewlreturn_Click(object sender, EventArgs e)
         {
-            frmListReturned frm = new frmListReturned();
+            ReturnListForm frm = new ReturnListForm();
             frm.Show();
         }
 

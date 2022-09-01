@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using InventorySystem1._0.Includes;
 namespace InventorySystem1._0
 {
-    public partial class frmListStockout : Form
+    public partial class StockoutListForm : Form
     {
-        public frmListStockout()
+        public StockoutListForm()
         {
             InitializeComponent();
         }
