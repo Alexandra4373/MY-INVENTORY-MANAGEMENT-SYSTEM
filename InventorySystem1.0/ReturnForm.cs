@@ -12,9 +12,9 @@ using InventorySystem1._0.Includes;
 
 namespace InventorySystem1._0
 {
-    public partial class frmReturn : Form
+    public partial class ReturnForm : Form
     {
-        public frmReturn()
+        public ReturnForm()
         {
             InitializeComponent();
         }

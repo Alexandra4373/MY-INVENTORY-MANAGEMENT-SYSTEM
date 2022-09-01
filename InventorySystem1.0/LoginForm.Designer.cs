@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmLogin
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.lbldate = new System.Windows.Forms.Label();
             this.Button3 = new System.Windows.Forms.Button();
             this.Button2 = new System.Windows.Forms.Button();
@@ -176,7 +176,7 @@
             this.label4.Text = "x";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // frmLogin
+            // LoginForm
             // 
             this.AcceptButton = this.Button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,7 +196,7 @@
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.PictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmLogin";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);

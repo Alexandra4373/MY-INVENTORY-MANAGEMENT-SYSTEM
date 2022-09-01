@@ -11,9 +11,9 @@ using InventorySystem1._0.Includes;
 
 namespace InventorySystem1._0
 {
-    public partial class frmUsers : Form
+    public partial class UserForm : Form
     {
-        public frmUsers()
+        public UserForm()
         {
             InitializeComponent();
         }

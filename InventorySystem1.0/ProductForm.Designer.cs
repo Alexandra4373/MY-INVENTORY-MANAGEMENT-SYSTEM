@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmItems
+    partial class ProductForm
     {
         /// <summary>
         /// Required designer variable.

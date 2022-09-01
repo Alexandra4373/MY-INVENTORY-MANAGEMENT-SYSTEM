@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmStockOut
+    partial class StockOutForm
     {
         /// <summary>
         /// Required designer variable.

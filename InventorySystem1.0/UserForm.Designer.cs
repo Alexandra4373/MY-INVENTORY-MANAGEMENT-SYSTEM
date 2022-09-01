@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class frmUsers
+    partial class UserForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsers));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserForm));
             this.Panel1 = new System.Windows.Forms.Panel();
             this.txt_name = new System.Windows.Forms.TextBox();
             this.lbl_id = new System.Windows.Forms.Label();

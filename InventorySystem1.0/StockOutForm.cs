@@ -11,9 +11,9 @@ using InventorySystem1._0.Includes;
 
 namespace InventorySystem1._0
 {
-    public partial class frmStockOut : Form
+    public partial class StockOutForm : Form
     {
-        public frmStockOut(string cus_id)
+        public StockOutForm(string cus_id)
         {
             InitializeComponent();
 

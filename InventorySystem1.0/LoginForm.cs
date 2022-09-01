@@ -11,10 +11,10 @@ using InventorySystem1._0.Includes;
 
 namespace InventorySystem1._0
 {
-    public partial class frmLogin : Form
+    public partial class LoginForm : Form
     {
-        Form1 frm;
-        public frmLogin(Form1 frm)
+        Home frm;
+        public LoginForm(Home frm)
         {
             InitializeComponent();
 

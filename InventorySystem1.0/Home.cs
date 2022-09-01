@@ -11,9 +11,9 @@ using InventorySystem1._0.Properties;
 
 namespace InventorySystem1._0
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
@@ -58,25 +58,25 @@ namespace InventorySystem1._0
         private void ts_stocks_Click(object sender, EventArgs e)
         {
             closeForm();
-            showFrm(new frmItems());
+            showFrm(new ProductForm());
         }
 
         private void ts_StockOut_Click(object sender, EventArgs e)
         {
             closeForm();
-            showFrm(new frmStockOut(""));
+            showFrm(new StockOutForm(""));
         }
 
         private void ts_Return_Click(object sender, EventArgs e)
         {
             closeForm();
-            showFrm(new frmReturn());
+            showFrm(new ReturnForm());
         }
 
         private void ts_ManageUsers_Click(object sender, EventArgs e)
         {
             closeForm();
-            showFrm(new frmUsers());
+            showFrm(new UserForm());
         }
 
         private void ts_Report_Click(object sender, EventArgs e)
@@ -91,7 +91,7 @@ namespace InventorySystem1._0
             if (ts_Login.Text == "Login")
             {
                 closeForm();
-                showFrm(new frmLogin(this));
+                showFrm(new LoginForm(this));
             }
             else
             {
@@ -110,7 +110,7 @@ namespace InventorySystem1._0
         private void ts_settings_Click(object sender, EventArgs e)
         {
             closeForm();
-            showFrm(new frmSettings());
+            showFrm(new SettingForm());
         }
     }
 }
