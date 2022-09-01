@@ -256,15 +256,16 @@
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "Add new Category";
             // 
-            // frmSettings
+            // SettingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Olive;
             this.ClientSize = new System.Drawing.Size(777, 395);
             this.Controls.Add(this.GroupBox2);
             this.Controls.Add(this.GroupBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "frmSettings";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "SettingForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maintenance";
             ((System.ComponentModel.ISupportInitialize)(this.dtgtypelist)).EndInit();

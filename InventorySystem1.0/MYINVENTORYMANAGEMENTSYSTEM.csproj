@@ -70,17 +70,17 @@
     <Compile Include="ProductForm.Designer.cs">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListReturned.cs">
+    <Compile Include="ReturnListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListReturned.Designer.cs">
-      <DependentUpon>frmListReturned.cs</DependentUpon>
+    <Compile Include="ReturnListForm.Designer.cs">
+      <DependentUpon>ReturnListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmListStockout.cs">
+    <Compile Include="StockoutListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmListStockout.Designer.cs">
-      <DependentUpon>frmListStockout.cs</DependentUpon>
+    <Compile Include="StockoutListForm.Designer.cs">
+      <DependentUpon>StockoutListForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -88,11 +88,11 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmReport.cs">
+    <Compile Include="ReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmReport.Designer.cs">
-      <DependentUpon>frmReport.cs</DependentUpon>
+    <Compile Include="ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReturnForm.cs">
       <SubType>Form</SubType>
@@ -128,17 +128,17 @@
     <EmbeddedResource Include="ProductForm.resx">
       <DependentUpon>ProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListReturned.resx">
-      <DependentUpon>frmListReturned.cs</DependentUpon>
+    <EmbeddedResource Include="ReturnListForm.resx">
+      <DependentUpon>ReturnListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmListStockout.resx">
-      <DependentUpon>frmListStockout.cs</DependentUpon>
+    <EmbeddedResource Include="StockoutListForm.resx">
+      <DependentUpon>StockoutListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmReport.resx">
-      <DependentUpon>frmReport.cs</DependentUpon>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReturnForm.resx">
       <DependentUpon>ReturnForm.cs</DependentUpon>
